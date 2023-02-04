@@ -5,6 +5,8 @@
   display: none;
   flex-direction: column;
   gap: 15px;
+  height: 380px;
+  justify-content: space-around;
   padding: 30px;
 }
 

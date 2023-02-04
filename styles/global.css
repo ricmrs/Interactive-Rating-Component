@@ -32,10 +32,6 @@ body {
   max-width: 90vw;
 }
 
-.container .ratingstate, .container .thankyou {
-  height: 355px;
-}
-
 .attribution {
   color: var(--lightgrey);
   font-size: 12px; 
