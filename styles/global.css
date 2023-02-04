@@ -1,0 +1,47 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --orange: hsl(25, 97%, 53%);
+  --lightgrey: hsl(217, 12%, 63%);
+  --mediumgrey: hsl(216, 12%, 54%);
+  --littledarkblue: hsl(214, 16%, 20%);
+  --darkblue: hsl(213, 19%, 18%);
+  --verydarkblue: hsl(216, 12%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--verydarkblue);
+  font-family: 'Overpass', sans-serif;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 90vw;
+}
+
+.container .ratingstate, .container .thankyou {
+  height: 355px;
+}
+
+.attribution {
+  color: var(--lightgrey);
+  font-size: 12px; 
+  text-align: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}

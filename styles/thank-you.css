@@ -1,0 +1,33 @@
+.thankyou {
+  align-items: center;
+  background-color: var(--darkblue);
+  border-radius: 20px;
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+}
+
+.result {
+  background-color: var(--littledarkblue);
+  border: none;
+  border-radius: 15px;
+  color: var(--orange);
+  padding: 5px 10px;
+}
+
+.thankyou .title {
+  color: var(--white);
+  font-size: 25px;
+}
+
+.thankyou .subtitle {
+  color: var(--lightgrey);
+  text-align: center;
+}
+
+@media screen and (min-width: 375px) {
+  .thankyou {
+    width: 350px;
+  }
+}
